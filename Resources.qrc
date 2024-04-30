@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>Images/Chatbot.png</file>
+        <file>Images/Clock.png</file>
+        <file>Images/Image Analysis.png</file>
+        <file>Images/mic.png</file>
+        <file>Images/Profile.png</file>
+        <file>Images/Speech to text.png</file>
+        <file>Images/Text to speech.png</file>
+        <file>Images/UploadFile.png</file>
+        <file>Images/Vector.png</file>
+        <file>Images/Signlanguage.jpg</file>
+        <file>Images/SignLogo.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>Images/Speaker.png</file>
+    </qresource>
+</RCC>

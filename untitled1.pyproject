@@ -1,0 +1,8 @@
+{
+    "files": [
+        "hackathon.py",
+        "form.ui",
+        "ALLIMAGES.qrc",
+        "Resources.qrc"
+    ]
+}

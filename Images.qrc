@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>Images/Chatbot.png</file>
+        <file>Images/Clock.png</file>
+        <file>Images/Image Analysis.png</file>
+        <file>Images/mic.png</file>
+        <file>Images/Profile.png</file>
+        <file>Images/Speech to text.png</file>
+        <file>Images/Text to speech.png</file>
+        <file>Images/UploadFile.png</file>
+    </qresource>
+</RCC>

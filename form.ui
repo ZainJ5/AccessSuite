@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Hackathon</class>
+ <widget class="QWidget" name="Hackathon">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>754</width>
+    <height>461</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Hackathon</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #ffffff;
+
+</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>146</width>
+     <height>463</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #0A5F59;
+border-radius:20px;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>145</x>
+     <y>0</y>
+     <width>621</width>
+     <height>461</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(233, 246, 240);
+border-radius: 20px;</string>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="page">
+    <widget class="QLabel" name="Photo">
+     <property name="geometry">
+      <rect>
+       <x>71</x>
+       <y>70</y>
+       <width>461</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(220, 220, 220);
+border-radius: 20px; 
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>298</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel, QPushButton {
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #0A5F59, stop:1 #3EB489);
+    color: white;
+    border-radius: 15px;
+    padding: 4px 4px;
+    font-weight: 500;
+    font-family: &quot;Roboto&quot;;
+    font-size: 18px;
+}
+
+QLabel:hover, QPushButton:hover {
+    background-color: #6BC75C;
+
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Upload</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="generate">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>423</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel, QPushButton {
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #0A5F59, stop:1 #3EB489);
+    color: white;
+    border-radius: 15px;
+    padding: 4px 4px;
+    font-weight: 500;
+    font-family: &quot;Roboto&quot;;
+    font-size: 18px;
+}
+
+QLabel:hover, QPushButton:hover {
+    background-color: #6BC75C;
+
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Generate</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>581</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QStackWidget,QLabel{
+background-color: white;
+border-radius: 19px;
+font-weight: bold;
+font-family: &quot;Roboto&quot;;
+color: black;
+font-size: 18px;
+padding-left: 165px;
+}</string>
+     </property>
+     <property name="text">
+      <string>IMAGE TO TEXT CONVERTER</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="description">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>334</y>
+       <width>501</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(220, 220, 220);
+border-radius: 20px;
+font-weight: bold;
+font-size: 12px;
+font-family: &quot;Poppins&quot;;
+color: black;
+padding-left: 10px;
+padding-top: 8px;</string>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Poppins'; font-size:12px; font-weight:700; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="error">
+     <property name="geometry">
+      <rect>
+       <x>437</x>
+       <y>294</y>
+       <width>91</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="speaker">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>382</y>
+       <width>30</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 5px;
+background-image: url(:/Images/Speaker.png);
+background-color: rgb(220, 220, 220);
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_4">
+    <widget class="QTextEdit" name="Textinput">
+     <property name="geometry">
+      <rect>
+       <x>16</x>
+       <y>80</y>
+       <width>571</width>
+       <height>231</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTextEdit {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-family: &quot;Roboto&quot;;
+    color: black;
+    font-size: 18px;
+    padding-left: 8px;
+    padding-top: 10px;
+}
+
+</string>
+     </property>
+     <property name="placeholderText">
+      <string> write text to start converting...</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="generatespeech">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>344</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: rgb(41, 128, 185);
+    color: white;
+    border-radius: 15px;
+    padding: 8px 8px;
+    font-weight: 500;
+    font-family: &quot;Roboto&quot;;
+    font-size: 18px;
+}
+
+QPushButton:hover {
+    background-color: rgb(33, 84, 163);
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Generate</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>581</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QStackWidget,QLabel{
+background-color: white;
+border-radius: 19px;
+font-weight: bold;
+font-family: &quot;Roboto&quot;;
+color: black;
+font-size: 18px;
+padding-left: 165px;
+}</string>
+     </property>
+     <property name="text">
+      <string>TEXT  TO SPEECH TEXT CONVERTER</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="noaudio">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>320</y>
+       <width>131</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_3">
+    <widget class="QTextEdit" name="Result">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>100</y>
+       <width>571</width>
+       <height>231</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTextEdit {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-family: &quot;Roboto&quot;;
+    color: black;
+    font-size: 18px;
+    padding-left: 8px;
+    padding-top: 10px;
+}
+
+</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+     <property name="placeholderText">
+      <string>Text will be generated here...</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="mic">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>377</y>
+       <width>20</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="GenerateText">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>360</y>
+       <width>571</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-family: &quot;Roboto&quot;;
+    color: black;
+    font-size: 15px;
+    padding-left: 80px;
+    padding-top: 2px;</string>
+     </property>
+     <property name="text">
+      <string>TAP TO START RECORDING...</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>581</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QStackWidget,QLabel{
+background-color: white;
+border-radius: 19px;
+font-weight: bold;
+font-family: &quot;Roboto&quot;;
+color: black;
+font-size: 18px;
+padding-left: 170px;
+}</string>
+     </property>
+     <property name="text">
+      <string> SPEECH TO TEXT CONVERTER</string>
+     </property>
+    </widget>
+    <zorder>Result</zorder>
+    <zorder>GenerateText</zorder>
+    <zorder>mic</zorder>
+    <zorder>label_11</zorder>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>581</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QStackWidget,QLabel{
+background-color: white;
+border-radius: 19px;
+font-weight: bold;
+font-family: &quot;Roboto&quot;;
+color: black;
+font-size: 18px;
+padding-left: 235px;
+}</string>
+     </property>
+     <property name="text">
+      <string>AI Assisistant</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>55</x>
+       <y>77</y>
+       <width>176</width>
+       <height>209</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QStackWidget,QLabel{
+background-color: white;
+border-radius: 19px;
+font-weight: light;
+font-family: &quot;Poppins&quot;;
+color: black;
+font-size: 15px;
+padding-left: 10px;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>342</x>
+       <y>350</y>
+       <width>241</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QStackWidget,QLabel{
+background-color: white;
+font-size: 12px;
+font-family: &quot;Poppins&quot;;
+color: black;
+font-weight: semi-bold;
+padding-up: 2px;
+padding-left: 8px;
+padding-right: 8px;
+border-radius: 19px;
+}</string>
+     </property>
+     <property name="text">
+      <string>I feel stressed for a last couple of days.</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>410</y>
+       <width>510</width>
+       <height>39</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QStackWidget,QLabel{
+background-color: white;
+border-radius: 19px;
+font-weight: light;
+font-family: &quot;Poppins&quot;;
+color: black;
+font-size: 15px;
+padding-left: 10px;
+}</string>
+     </property>
+     <property name="text">
+      <string>Write a comment...</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="clock">
+     <property name="geometry">
+      <rect>
+       <x>549</x>
+       <y>25</y>
+       <width>23</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="profile">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>275</y>
+       <width>28</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>63</x>
+       <y>89</y>
+       <width>161</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QStackWidget,QLabel{
+background-color: white;
+font-size: 11px;
+font-family: &quot;Poppins&quot;;
+color: black;
+padding-up: 2px;
+}</string>
+     </property>
+     <property name="text">
+      <string>Don’t hesitate to let me know
+about emotions, thoughts, or
+any obstacles your dealing 
+with right now.Write a message
+or choose one of the topics 
+below to get started.
+</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>63</x>
+       <y>88</y>
+       <width>166</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QStackWidget,QLabel{
+background-color: white;
+font-weight: bold;
+font-size: 11px;
+font-family: &quot;Poppins&quot;;
+color: black;
+padding-up: 2px;
+}</string>
+     </property>
+     <property name="text">
+      <string>Hi! How can i help you today?</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>200</y>
+       <width>150</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel, QPushButton {
+    background-color: rgb(134, 249, 115);
+    font-weight: bold;
+    font-family: &quot;Roboto&quot;;
+    font-size: 12px;
+    border-radius :15px;
+}
+
+QLabel:hover, QPushButton:hover {
+    background-color: #6BC75C;
+
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Manage Anxiety</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>240</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel, QPushButton {
+	background-color: rgb(134, 249, 115);
+    font-weight: bold;
+    font-family: &quot;Roboto&quot;;
+    font-size: 11px;
+    border-radius :15px;
+}
+
+QLabel:hover, QPushButton:hover {
+    background-color: #6BC75C;
+
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Stop negative self-talk</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_5">
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>581</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QStackWidget,QLabel{
+background-color: white;
+border-radius: 19px;
+font-weight: bold;
+font-family: &quot;Roboto&quot;;
+color: black;
+font-size: 18px;
+padding-left: 230px;
+}</string>
+     </property>
+     <property name="text">
+      <string>Sign Language</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="languagephoto">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>76</y>
+       <width>382</width>
+       <height>376</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius: 0px;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="languagephoto_2">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>71</y>
+       <width>402</width>
+       <height>388</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 2px solid black;
+background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>label_8</zorder>
+    <zorder>languagephoto_2</zorder>
+    <zorder>languagephoto</zorder>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="text">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>110</y>
+     <width>145</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-radius: 19px;
+    background-color: #084C45;
+    color: white;
+    font: bold 14px;
+padding-left: 7px;
+padding-right: 10px;
+  padding-up: 3px;
+}
+
+QPushButton:hover {
+    background-color: #063D37;
+}
+
+QPushButton:checked {
+    color: black;
+    background-color: rgb(233, 246, 240);
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Text to Speech</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="speech">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>40</y>
+     <width>145</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-radius: 19px;
+    background-color: #084C45;
+    color: white;
+    font: bold 14px;
+padding-left: 7px;
+padding-right: 10px;
+  padding-up: 3px;
+}
+
+QPushButton:hover {
+    background-color: #063D37;
+}
+
+QPushButton:checked {
+    color: black;
+    background-color: rgb(233, 246, 240);
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Speech to Text</string>
+   </property>
+   <property name="icon">
+    <iconset resource="ALLIMAGES.qrc">
+     <normaloff>:/new/prefix1/Images/Chatbot.png</normaloff>:/new/prefix1/Images/Chatbot.png</iconset>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="imageana">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>180</y>
+     <width>145</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-radius: 19px;
+    background-color: #084C45;
+    color: white;
+    font: bold 14px;
+padding-left: 7px;
+padding-right: 10px;
+  padding-up: 3px;
+}
+
+QPushButton:hover {
+    background-color: #063D37;
+}
+
+QPushButton:checked {
+    color: black;
+    background-color: rgb(233, 246, 240);
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Image Analysis</string>
+   </property>
+   <property name="icon">
+    <iconset resource="Resources.qrc">
+     <normaloff>:/new/prefix1/Images/Image Analysis.png</normaloff>:/new/prefix1/Images/Image Analysis.png</iconset>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="chatbot">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>250</y>
+     <width>145</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-radius: 19px;
+    background-color: #084C45;
+    color: white;
+    font: bold 14px;
+padding-left: 7px;
+padding-right: 50px;
+  padding-up: 3px;
+}
+
+QPushButton:hover {
+    background-color: #063D37;
+}
+
+QPushButton:checked {
+    color: black;
+    background-color: rgb(233, 246, 240);
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Chatbot</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="signlanguage">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>320</y>
+     <width>145</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border-radius: 19px;
+    background-color: #084C45;
+    color: white;
+    font: bold 14px;
+padding-left: 7px;
+padding-right: 10px;
+  padding-up: 3px;
+}
+
+QPushButton:hover {
+    background-color: #063D37;
+}
+
+QPushButton:checked {
+    color: black;
+    background-color: rgb(233, 246, 240);
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Sign Language</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="ALLIMAGES.qrc"/>
+  <include location="Resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
