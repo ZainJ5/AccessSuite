@@ -169,11 +169,9 @@ class Hackathon(QWidget):
 
 
     def text_to_speech(self, text):
-        # Set your API key and region
-        speech_key = "9740c0f7b333475da7bc2faa182a563c"
-        speech_region = "westus"  # Set the correct region here, e.g., "westus", "eastus", etc.
+        speech_key = "API_KEY"
+        speech_region = "westus"
 
-        # Initialize SpeechConfig with your API key and region
         speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=speech_region)
         audio_config = speechsdk.audio.AudioOutputConfig(use_default_speaker=True)
 
@@ -203,8 +201,8 @@ class Hackathon(QWidget):
 
         if self.file_name:
             image_path = self.file_name
-            subscription_key = '9740c0f7b333475da7bc2faa182a563c'
-            endpoint = 'https://zainjamshaid.cognitiveservices.azure.com/'
+            subscription_key = 'API_KEY'
+            endpoint = 'END_POINT'
 
             credentials = CognitiveServicesCredentials(subscription_key)
             client = ComputerVisionClient(endpoint, credentials)
